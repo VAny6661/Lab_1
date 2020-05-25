@@ -40,6 +40,7 @@ public class Shells_open {
    allShells.get(j).addListener(SWT.Close, new Listener() {
 	      public void handleEvent(Event event) {
 	        event.doit = false;
+	        
 	      }
 	    });}
    
