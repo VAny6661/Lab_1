@@ -28,16 +28,16 @@ public class MainShell {
 		layout.Layout(checkBoxButtonsShell);
 		layout.Layout(tableShell);
 		
-		AddToList group1 = new AddToList();
-		group1.addToList(mainShell);
-		ButtonsNames group2 = new ButtonsNames();
-		group2.changeButtonsName(mainShell);
-		CheckRadioButtons group3 = new CheckRadioButtons();
-		group3.radioButtons(mainShell);
-		CheckCheckBoxes group4 = new CheckCheckBoxes();
-		group4.CheckBoxButtons(mainShell);
-		FillTable group5 = new FillTable();
-		group5.MoveTable(mainShell);	
+		AddToList addToList = new AddToList();
+		addToList.addToList(mainShell);
+		ButtonsNames buttonsName = new ButtonsNames();
+		buttonsName.changeButtonsName(mainShell);
+		CheckRadioButtons checkRadioButtons = new CheckRadioButtons();
+		checkRadioButtons.radioButtons(mainShell);
+		CheckCheckBoxes checkCheckBoxes = new CheckCheckBoxes();
+		checkCheckBoxes.CheckBoxButtons(mainShell);
+		FillTable fillTable = new FillTable();
+		fillTable.MoveTable(mainShell);	
 		
 		ArrayList<Shell> allShells = new ArrayList<Shell>();
 		allShells.add(mainShell);
