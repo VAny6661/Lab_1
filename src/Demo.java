@@ -1,6 +1,6 @@
 
 public class Demo {
 	public static void main(String[] args) {
-		GROUPTOGETHER creation = new GROUPTOGETHER();
-		creation.MainShell();
+		MainShell creation = new MainShell();
+		creation.mainShell();
 }}
